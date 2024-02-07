@@ -18,7 +18,7 @@ header{
 .head{
     display: flex;
     justify-content: flex-end;
-    padding: 5px;
+    padding: 7px;
 }
 
 .btn{
@@ -26,9 +26,27 @@ header{
     background-color: rgb(82, 82, 82);
     color: #ffffff;
     padding: 3px;
-    border-radius: 8px;
+    border-radius: 6px;
+    font-size: 15px;
 }
 
 .btn-big{
     margin-right: 5px;
+}
+
+/*MAIN*/
+main{
+    padding: 30px;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*FOOTER*/
+footer{
+    height: 70px;
+    background-color: rgb(44, 42, 42);
 }
