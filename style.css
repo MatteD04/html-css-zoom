@@ -4,3 +4,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*GENERAL*/
+body{
+    background-color: black;
+}
+
+/*HEADER*/
+header{
+    padding-bottom: 40px;
+}
+
+.head{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.btn{
+    cursor: pointer;
+    background-color: rgb(82, 82, 82);
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.btn-big{
+    margin-right: 5px;
+}
